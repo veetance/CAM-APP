@@ -7,3 +7,46 @@ body{
 
   margin:0px;
 }
+
+
+.footer-wrap{
+  border: solid 2px;
+  display: grid;
+  grid-template-columns:1fr;
+  align-content:center;
+  justify-content: center;
+}
+
+.footer{
+  display:grid;
+  justify-content: center; 
+  align-content:center; 
+  grid-template-columns: 1fr 2fr 1fr;   
+  padding: 25px 50px 20px 50px;
+}
+
+.left-side{
+  display:grid;
+  justify-content: start;  
+}
+
+.right-side{
+  display:grid;
+  justify-content: end;
+}
+
+  .middle{
+  display:grid;
+  align-content:end;
+  justify-content: center;
+}
+
+
+h3{
+  color:0;
+  text-transform:uppercase;  
+}
+
+p{
+  color:0; 
+}

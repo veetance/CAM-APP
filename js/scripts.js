@@ -55,22 +55,33 @@ function draw() {
 
         // ctracker.draw(drawcanvas);
 
-        fill(255);
-        ellipse(positions[27][0],positions[32][1],[20])
-        ellipse(positions[32][0],positions[27][1],[20])
+        
 
         print('x:' + positions[27][0])
         print('y:' + positions[27][1])
 
 
-        var r = map(positions[27][0],0, width, 0, 255)
-        var b = map(positions[27][1],0, height, 0, 255)
+        var r = map(positions[27][0],800,600, 0, 255)
+        var b = map(positions[27][1],200,400, 0, 255)
         // image(Leye, positions[27][0], positions[32][1]);
 
-        background(r,255,b)
+        background(r*10,155,b*10)
+
+        
 
         fill(255);
-        ellipse(width/2, height/2, r,b)
+        ellipse(positions[27][0],positions[32][1],[40])
+        ellipse(positions[32][0],positions[27][1],[40])
+
+
+		fill(0);
+        ellipse(positions[27][0],positions[32][1],[10])
+        ellipse(positions[32][0],positions[27][1],[10])
+
+		fill(252,3,123);
+        ellipse(positions[60][0],positions[60][1],[r/3])
+
+
     }
 }
 
