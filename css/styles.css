@@ -10,7 +10,7 @@ body{
 
 
 .footer-wrap{
-  border: solid 2px;
+  border-bottom: solid 4px;
   display: grid;
   grid-template-columns:1fr;
   align-content:center;
@@ -45,8 +45,23 @@ body{
 h3{
   color:0;
   text-transform:uppercase;  
+  font-family: 'Poppins', sans-serif;
+  font-size:33px;
+
+  margin: 0px;
 }
 
 p{
-  color:0; 
+  color:0;
+  font-family: 'Poppins', sans-serif; 
+  font-size:17px;
+}
+
+.middle{
+display: flex;
+ align-items: center;
+  justify-content: center;
+
+
+
 }
